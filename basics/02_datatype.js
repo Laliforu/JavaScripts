@@ -20,3 +20,4 @@ let a = null
 // object
 
 console.log(typeof "bhavnesh");
+
