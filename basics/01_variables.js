@@ -6,7 +6,7 @@ accountCity = "Delhi" // equal to var
 var state;
 /*{
     scope
-    leyt,const(block scope)
+    let,const(block scope)
 }*/
 // accountId = 26  not allowed assignment on constant variable and not support declaration of same name 
 /* 
