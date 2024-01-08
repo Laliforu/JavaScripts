@@ -71,12 +71,14 @@ var obj = {
     }],
 }
 // console.log(obj);
-for (let i = 0;i<obj.a.length; i++){
-    let item = obj.a[i]
-    if (instanceof(item,object)){
-        for (let j = 0; j<item.l.length;j++){
-            console.log(j)
-        }
+for(var i = 0;i<obj.a.length;i++){
+    if(typeof obj.a[i] === 'object'){
+        console.log(obj.a[i].l)
     }
-}
+} 
 
+let n = "bhavnesh"
+let p = n
+console.log(n,p);
+p = "mehra"
+console.log(n,p);
