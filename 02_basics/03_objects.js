@@ -1,4 +1,4 @@
-//  singleton ( apni trh ka unique object ) literal se bnega to si{ngleton nhi bnega
+//  singleton ( apni trh ka unique object ) literal se bnega to singleton nhi bnega
 // Object.create 
 
 
@@ -25,7 +25,7 @@ obj.greeting = function(){
 }
 console.log(obj.greeting());
 // console.log(obj['fullname']);
-// console.log(obj[mys1]);
+console.log(obj[mys1]);
 // console.log(obj);
 
 console.log();

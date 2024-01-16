@@ -19,11 +19,12 @@ const myRR = new Array(1,2,3)
 // console.log(myArry);
 // console.log(newArr); // type string
 
-// console.log("a",myArry);
-// const myn1  = myArry.slice(1,3)
-// console.log(myn1);
-// console.log("b",myArry);
-// const myn2  = myArry.splice(1,3) // manipulate original array
-// console.log("c",myArry);
-// console.log(myn2);
+console.log("a",myArry);
+const myn1  = myArry.slice(1,3)
+console.log(myn1);
+console.log("b",myArry);
+const myn2  = myArry.splice(1,2) // manipulate original array
+// const myn2  = myArry.splice(1,0,589) // manipulate original array
+console.log("c",myArry);
+console.log(myn2);
 
